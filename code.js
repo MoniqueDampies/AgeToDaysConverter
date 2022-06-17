@@ -22,6 +22,6 @@ function ageCalculator() {
 
     //display the calculated age
     return (document.getElementById("result").innerHTML =
-      "You are " + age + " years" + " and " + days + " days old");
+      "You are " + age + " years " + " and you are " + days + " days old");
   }
 }
